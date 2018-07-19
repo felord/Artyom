@@ -8,8 +8,8 @@
 每一版内容不同的地方就是版本号（或者官方一点的说：系统代号）<br>
 用<code>lsb_release -c</code>获得<br>
 18.04的Ubuntu系统代号为bionic,镜像源就为bionic<br>
-  <code>deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse  
-  deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse  
+  <code>deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse<br>
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse<br>
   deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse  
   deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse  
   deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse  

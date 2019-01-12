@@ -5,10 +5,10 @@
 ## 2、ubuntu 镜像源修改：
   <code>sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak</code><br>
 <code>sudo vim /etc/apt/sources.list</code><br>
-vim中输入以下命令，将源改为阿里
-<code>:%s/security.ubuntu/mirrors.aliyun/g</code>
-<code>:%s/archive.ubuntu/mirrors.aliyun/g</code>
-更新
+vim中输入以下命令，将源改为阿里<br>
+<code>:%s/security.ubuntu/mirrors.aliyun/g</code><br>
+<code>:%s/archive.ubuntu/mirrors.aliyun/g</code><br>
+更新<br>
 <code>sudo apt update</code>
 
 

@@ -10,6 +10,8 @@ vim中输入以下命令，将源改为阿里<br>
 <code>:%s/archive.ubuntu/mirrors.aliyun/g</code><br>
 更新<br>
 <code>sudo apt update</code>
+## 3、安装gcc
+<code>sudo apt-get update && sudo apt-get install build-essential</code><br>
 
 
 
